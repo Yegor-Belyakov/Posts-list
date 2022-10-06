@@ -11,6 +11,7 @@ export default function PostForm({ create }) {
     const newPost = { ...post, id: Date.now() };
     create(newPost);
     setPost({ body: "", title: "" });
+    
   };
   return (
     <form>
