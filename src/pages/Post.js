@@ -11,7 +11,7 @@ import PostForm from "../components/UI/PostForm";
 import { useFetching } from "../hooks/useFetching";
 import { usePosts } from "../hooks/usePosts";
 import "../styles/App.css";
-import { getPageCount, getPagesArray } from "../utils/pages";
+import { getPageCount} from "../utils/pages";
 
 function Posts() {
   const [posts, setPosts] = useState([]);
